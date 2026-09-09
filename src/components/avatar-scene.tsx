@@ -73,7 +73,7 @@ function ProceduralAvatar({ gender = avatarGender }: { gender?: typeof avatarGen
     <group ref={body} position={[0, -1.25, 0]}>
       <mesh castShadow receiveShadow position={[0, 0, 0]}>
         <coneGeometry args={[isFemale ? 0.82 : 0.72, 1.95, isFemale ? 8 : 6]} />
-        <meshStandardMaterial color={isFemale ? "#FF5C8A" : "#5360FF"} roughness={0.55} />
+        <meshStandardMaterial color="#2563EB" roughness={0.55} />
       </mesh>
       <group ref={head} position={[0, 1.18, 0]}>
         <mesh castShadow>
